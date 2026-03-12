@@ -4,7 +4,7 @@
     "name": "DodoApps",
     "developer": "DodoApps",
     "tagline": "Beautiful native macOS utilities",
-    "url": null,
+    "url": "https://github.com/DodoApps",
     "github": "https://github.com/DodoApps"
   },
   "featured": [
@@ -35,20 +35,20 @@
   ],
   "categories": [
     {
-      "id": "analytics",
-      "name": "analytics"
+      "id": "macos",
+      "name": "macOS Apps"
     },
     {
       "id": "productivity",
-      "name": "productivity"
-    },
-    {
-      "id": "security",
-      "name": "security"
+      "name": "Productivity"
     },
     {
       "id": "utilities",
-      "name": "utilities"
+      "name": "Utilities"
+    },
+    {
+      "id": "business",
+      "name": "Business"
     }
   ],
   "apps": [
@@ -59,8 +59,13 @@
       "description": "Lightweight native macOS screenshot application with capture, annotation, and management capabilities. Inspired by CleanShot X, entirely free and open source.",
       "longDescription": "Lightweight native macOS screenshot application with capture, annotation, and management capabilities. Inspired by CleanShot X, entirely free and open source.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodoshot/main/icon.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
+        "macos",
         "productivity"
       ],
       "platform": "macOS",
@@ -89,8 +94,13 @@
       "description": "A lightweight, native clipboard manager that automatically saves everything you copy and provides instant access to your clipboard history.",
       "longDescription": "A lightweight, native clipboard manager that automatically saves everything you copy and provides instant access to your clipboard history.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodoclip/main/icon.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
+        "macos",
         "productivity"
       ],
       "platform": "macOS",
@@ -119,8 +129,13 @@
       "description": "A lightweight, native macOS menu bar app that displays real-time system metrics with beautiful mini graphs. Monitor CPU, memory, GPU, network, and more.",
       "longDescription": "A lightweight, native macOS menu bar app that displays real-time system metrics with beautiful mini graphs. Monitor CPU, memory, GPU, network, and more.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodopulse/525b81f/icon.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
+        "macos",
         "utilities"
       ],
       "platform": "macOS",
@@ -149,8 +164,13 @@
       "description": "A native macOS application for system monitoring, disk analysis, and cleanup. Remove caches, logs, and temporary files with multiple safety mechanisms.",
       "longDescription": "A native macOS application for system monitoring, disk analysis, and cleanup. Remove caches, logs, and temporary files with multiple safety mechanisms.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodotidy/main/dodotidy.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
+        "macos",
         "utilities"
       ],
       "platform": "macOS",
@@ -177,9 +197,14 @@
       "description": "A beautiful macOS menubar app for Google Analytics 4 and Search Console. Quick access to visitor data and search metrics.",
       "longDescription": "A beautiful macOS menubar app for Google Analytics 4 and Search Console. Quick access to visitor data and search metrics.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodocount/main/dodocount.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
-        "analytics"
+        "business",
+        "macos"
       ],
       "platform": "macOS",
       "price": "Free",
@@ -205,8 +230,13 @@
       "description": "A native macOS application for organizing and rearranging your menu bar items through drag-and-drop functionality and search.",
       "longDescription": "A native macOS application for organizing and rearranging your menu bar items through drag-and-drop functionality and search.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodonest/main/icon.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
+        "macos",
         "utilities"
       ],
       "platform": "macOS",
@@ -235,9 +265,14 @@
       "description": "A native macOS password manager built with SwiftUI, featuring local AES-256-GCM encryption with optional iCloud sync. Touch ID unlock, auto-lock, and smart clipboard.",
       "longDescription": "A native macOS password manager built with SwiftUI, featuring local AES-256-GCM encryption with optional iCloud sync. Touch ID unlock, auto-lock, and smart clipboard.",
       "icon": "https://raw.githubusercontent.com/DodoApps/dodopass/main/icon.png",
-      "iconStyle": {},
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
       "category": [
-        "security"
+        "macos",
+        "utilities"
       ],
       "platform": "macOS",
       "price": "Free",
